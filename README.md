@@ -4,7 +4,7 @@ The plugin enables using Maven projects as IntelliJ plugin project.
 ## Without the plugin:
 Plugin projects are normal Java projects, have type JAVA_MODULE in .iml. If one manually edits the type to be PLUGIN_MODULE, on 
 next Maven refresh the change is reverted.
-## With project
+## With the plugin:
 One has to add Maven property to declare the module to be marked as PLUGIN_MODULE.
 ```
 <properties>
