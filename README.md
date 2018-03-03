@@ -17,5 +17,12 @@ Make a pull request or whatever.
 
 Download the zip from - https://github.com/henri5/maven-intellij-project-importer/releases
 
+## TODO
+Build script. 
+
+## Development
+1. import as plugin project
+2. from $IJ_INSTALL_DIR/plugins add devkit/lib/devkit.jar, maven/lib/maven.jar and maven/lib/maven-server-api.jar to project dependencies
+
 ### Special thanks
 Alexander D. at JetBrains https://youtrack.jetbrains.com/issue/IDEA-65130
