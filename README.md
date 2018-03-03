@@ -18,7 +18,8 @@ Make a pull request or whatever.
 Download the zip from - https://github.com/henri5/maven-intellij-project-importer/releases
 
 ## TODO
-Build script. 
+1. Test
+2. Build script. 
 
 ## Development
 1. import as plugin project
