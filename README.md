@@ -1,6 +1,7 @@
 # maven-intellij-project-importer
 
-The plugin enables using Maven projects as IntelliJ plugin project. 
+The plugin enables using Maven projects as IntelliJ plugin project (PLUGIN_MODULE). Raw implementation, based on quick test doesn't work on single-module maven project, the main plugin module has to be submodule otherwise it doesn't pull in maven deps any longer.
+
 ## Without the plugin:
 Plugin projects are normal Java projects, have type JAVA_MODULE in .iml. If one manually edits the type to be PLUGIN_MODULE, on 
 next Maven refresh the change is reverted.
