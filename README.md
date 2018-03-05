@@ -16,6 +16,8 @@ After that, just do Maven refresh.
 It's not smart though - don't try adding ANDROID_MODULE or something else there. For there needs to be different custom importer. 
 Make a pull request or whatever.
 
+If plugin doesn't seem active during startup from IntelliJ, open module settings -> plugin deployment and edit META-INF location forth and back so that .iml file will get a line about plugin.xml location.
+
 Download the zip from - https://github.com/henri5/maven-intellij-project-importer/releases
 
 ## TODO
