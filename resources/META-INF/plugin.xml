@@ -6,7 +6,9 @@
 
   <description><![CDATA[
       Configures a Maven module as IntelliJ plugin project if the module has property
-      <henri5.importer.type>PLUGIN_MODULE</henri5.importer.type> in pom.xml
+      <henri5.importer.type>PLUGIN_MODULE</henri5.importer.type> in pom.xml.
+
+      https://github.com/henri5/maven-intellij-project-importer
     ]]></description>
 
   <change-notes><![CDATA[
