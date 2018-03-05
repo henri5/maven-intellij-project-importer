@@ -1,3 +1,5 @@
+Edit: nvm, use https://plugins.jetbrains.com/plugin/7127-intellij-plugin-development-with-maven
+
 # maven-intellij-project-importer
 
 The plugin enables using Maven projects as IntelliJ plugin project (PLUGIN_MODULE). Raw implementation, based on quick test doesn't work on single-module maven project, the main plugin module has to be submodule otherwise it doesn't pull in maven deps any longer.
