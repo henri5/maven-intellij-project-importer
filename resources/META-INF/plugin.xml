@@ -1,14 +1,12 @@
 <idea-plugin>
-  <id>henr5.importer</id>
+  <id>henri5.importer</id>
   <name>Maven plugin project importer</name>
   <version>0.0.1</version>
-  <vendor>Henri Viik</vendor>
+  <vendor url="https://github.com/henri5/maven-intellij-project-importer">Henri Viik</vendor>
 
   <description><![CDATA[
       Configures a Maven module as IntelliJ plugin project if the module has property
       <henri5.importer.type>PLUGIN_MODULE</henri5.importer.type> in pom.xml.
-
-      https://github.com/henri5/maven-intellij-project-importer
     ]]></description>
 
   <change-notes><![CDATA[
